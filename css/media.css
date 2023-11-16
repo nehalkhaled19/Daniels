@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+    .nav-link.active::before {
+        display: none;
+    } 
+    .section-head h3{
+        font-weight: 500;
+    }
+    .feedback img{
+        width: 30%;
+    }
+
+    .modal-dialog .row{
+        width: 80% !important;
+  
+    }
+    .modal-dialog img{
+        width: 100% !important;
+  
+    }
+}
+@media (max-width: 992px) {
+    .nav-link.active::before {
+        display: none;
+    } 
+    .section-head h3{
+        font-weight: 500;
+    }
+    /* .feedback img{
+        width: 30%;
+    } */
+    .modal-dialog .row{
+        width: 80% !important;
+  
+    }
+    .modal-dialog img{
+        width: 100% !important;
+  
+    }
+}
